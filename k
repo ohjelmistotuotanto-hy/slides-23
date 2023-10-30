@@ -1,2 +1,2 @@
-k.pdf: k.md
-	pandoc --pdf-engine=xelatex -t beamer -V colortheme=crane k.md -o k.pdf
+k.pdf: kuvat.md
+	pandoc --pdf-engine=xelatex -t beamer -V colortheme=crane kuvat.md -o k.pdf
