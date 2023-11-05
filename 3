@@ -1,0 +1,2 @@
+3.pdf: 3.md
+	pandoc --pdf-engine=xelatex -t beamer -V colortheme=crane 3.md -o 3.pdf
