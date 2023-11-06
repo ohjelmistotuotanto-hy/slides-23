@@ -6,7 +6,7 @@
 
 # Ohjelmiston elinkaari (software lifecycle)
 
-- ***Vaatimusten analysointi ja määrittely**
+- **Vaatimusten analysointi ja määrittely**
 - Suunnittelu
 - Toteutus
 - Testaus
