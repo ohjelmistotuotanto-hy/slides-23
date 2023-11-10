@@ -1,0 +1,2 @@
+6.pdf: 6.md
+	pandoc --pdf-engine=xelatex -t beamer -V colortheme=crane 6.md -o 6.pdf

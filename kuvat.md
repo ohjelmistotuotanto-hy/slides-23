@@ -1,5 +1,58 @@
 #
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Luento 5
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13.11.2022
+
+# Testauksen tasot
+
+- _Yksikkötestaus_ (unit testing)
+  - Yksittäisten luokkien, metodien ja moduulien testaus erillään muusta kokonaisuudesta
+
+- _Integraatiotestaus_ (integration testing)
+  - Yksittäin testattujen komponenttien liittäminen yhteen eli integrointi ja kokonaisuuden testaus
+
+- _Järjestelmätestaus_ (system testing)
+  - Toimiiko ohjelmisto vaatimuksiin kirjatulla tavalla?
+  - Tutkii järjestelmää kokonaisuudessaan: _end to end -testaus_
+  - Jakautuu useisiin alalajeihin
+
+- _Käyttäjän hyväksymistestaus_ (user acceptance testing)
+  - Loppukäyttäjän tuotteelle suorittama testaus
+
+# Testisyötteiden valinta: palautussovellus
+
+- Mitä testitapauksia kannattaisi valita palautussovelluksen testaamiseen?
+
+![](./images/submsystem.png){ width=350 }
+
+# Testisyötteiden valinta: tekstitv
+
+- Mitä testitapauksia kannattaisi valita _tekstitv:n sivun valintaikkunan_ testaamiseen?
+
+![](./images/tekstitv.png){ width=350 }
+
+# Ohtuvarasto: tyhjä, puolitäysi, täysi
+
+```python
+class Varasto
+    def __init__(self, tilavuus, alku_saldo = 0):
+        self.tilavuus = tilavuus
+        self.saldo = alkusalto
+
+    def ota_varastosta(self, maara):
+        if maara < 0:
+            return 0.0
+
+        if maara > self.saldo:
+            kaikki_mita_voidaan = self.saldo
+            self.saldo = 0.0
+            return kaikki_mita_voidaan
+
+        self.saldo = self.saldo - maara
+        return maara
+```
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Luento 4
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.11.2022
