@@ -26,12 +26,6 @@
 
 ![](./images/submsystem.png){ width=350 }
 
-# Testisyötteiden valinta: tekstitv
-
-- Mitä testitapauksia kannattaisi valita _tekstitv:n sivun valintaikkunan_ testaamiseen?
-
-![](./images/tekstitv.png){ width=350 }
-
 # Ohtuvarasto: tyhjä, puolitäysi, täysi
 
 ```python
@@ -52,6 +46,21 @@ class Varasto
         self.saldo = self.saldo - maara
         return maara
 ```
+
+#
+
+- Rakenteeseen perustuva integraatio
+
+![](./images/3.png){ width=100 }
+
+- Ominaisuuksiin perustuva integraatio
+
+![](./images/3b.png){ width=100 }
+
+# "V-malli"
+
+![](../ohjelmistotuotanto-hy.github.io/images/3-3.png){ width=400 }
+
 
 #
 
