@@ -17,16 +17,17 @@
 
 ![](images/robot1.png){ width=400 }
 
-#
-
-![](../ohjelmistotuotanto-hy.github.io/images/lu3-8.png){ width=400 }
-
 # Deployment pipeline
 
 - Vaiheet, joiden suorittaminen edellytetään, että commitattu koodi saadaan siirrettyä staging/tuotantoympäristöön
 
 ![](../ohjelmistotuotanto-hy.github.io/images/3-12.png){ width=400 }
 
+# Canary release
+
+- Kaksi rinnakkaista tuotantoympäristöä, joista uudet ominaisuudet viedään toiseen
+
+![](./images/canary.png){ width=400 }
 
 #
 
