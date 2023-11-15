@@ -5,4 +5,6 @@ make -f 3
 make -f 4
 make -f 5
 make -f 6
+make -f 7
+make -f 8
 make -f k

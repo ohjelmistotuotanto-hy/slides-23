@@ -1,0 +1,2 @@
+8.pdf: 8.md
+	pandoc --pdf-engine=xelatex -t beamer -V colortheme=crane 8.md -o 8.pdf
